@@ -1,0 +1,180 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	    min-height: 100vh;
+    margin: 0 auto;
+}
+h1 {
+	font-size: 32px;
+	font-weight: 700;
+}
+h2 {
+	font-size: 25px;
+	font-weight: 600;
+}
+h3 {
+	font-size: 20px;
+	font-weight: 600;
+}
+p {
+	font-size: 14px;
+	font-weight: 400;
+}
+.txt-primary {
+	color: #007CC2 !important;
+}
+.txt-secondary {
+	color: #FF7B00 !important;
+}
+.txt-white {
+	color:  #FFFFFF !important;
+}
+.bg-primary {
+	background-color: #007CC2 !important;
+}
+.bg-secondary {
+	background-color: #FF7B00 !important;
+}
+.bg-white {
+	background-color: #FFFFFF !important;
+}
+.form-label {
+	font-weight: 400;
+	font-size: 12px;
+}
+.mn-100 {
+	margin-top: -100px;
+}
+.form-control {
+	font-size: 12px;
+	color:  #808080 !important;
+	border:  1px solid #C2C2C2;
+	box-shadow: inset 2px 2px 2px #0000000A;
+	border-radius: 3px;
+}
+/*----- BOTONES -----*/
+.btn {
+	border-radius: 25px;
+	font-size: 14px;
+}
+.btn-primary {
+	background-color: #007CC2 !important;
+	border:  1px solid #007CC2;
+	color:  #FFFFFF;
+}
+.btn-primary:hover {
+	background-color: #00448D !important;
+	border:  1px solid #00448D;
+}
+.btn-primary:disabled {
+	background-color: #007CC2 !important;
+	border:  1px solid #007CC2;
+}
+.btn-secondary {
+	background-color: #FF7B00 !important;
+	border:  1px solid #FF7B00;
+	color: #FFFFFF;
+}
+.btn-secondary:hover {
+	background-color: #DB6A00 !important;
+	border:  1px solid #DB6A00;
+}
+.btn-secondary:disabled {
+	background-color: rgb(255, 123, 0);opacity:0.65  !important;
+	border:  1px solid rgb(255, 123, 0);opacity:0.65;
+}
+.btn-white {
+	background-color: #FFFFFF !important;
+	border:  1px solid #F2F2F2;
+	color:  #4A4A4A;
+}
+.btn-white:hover {
+	background-color: #FBFBFB !important;
+	border:  1px solid #F2F2F2;
+}
+.btn-white:disabled {
+	background-color: #F2F2F2 !important;
+	border:  1px solid #F2F2F2;
+	color:  #808080;
+}
+
+section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+section#formLanding, .bodyPayment {
+	background: transparent radial-gradient(closest-side at 50% 50%, #007CC2 0%, #003E61 200%) 0% 0% no-repeat padding-box;
+	box-shadow: inset -50px 50px 99px #00448D;
+	opacity: 1;
+}
+section#descriptionLanding {
+	background-color: #F2F2F2;
+	 background-image: url(../img/autofact-left.svg), url(../img/autofact-right.svg);
+  background-position: left center, right center;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 30%;
+}
+.captcha {
+	width: 275px;
+	height: auto;
+}
+/*----- UL -----*/
+ul.ulText {
+  list-style: none; /* Remove default bullets */
+}
+
+ul.ulText li::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #FF7B00; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  font-size: 30px;
+  vertical-align: middle;
+}
+ul.ulText li {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+/*----- NAVBAR -----*/
+.navbar {
+	font-size: 14px;
+	font-weight: 600;
+}
+.navbar .navbar-toggler {
+	color:  #FFFFFF;
+	background-color: #FFFFFF;
+	border:  none;
+}
+/*----- CARD -----*/
+.card {
+	padding: 25px;
+	box-shadow: 0 3px 6px rgba(0,0,0,.3) !important;
+	border: none;
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+}
+
+@media (max-width: 991px) {
+h1 {
+	font-size: 20px;
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px;
+}
+}
+@media (max-width: 575px) {
+	section#descriptionLanding {
+	background-image: none;
+}
+}

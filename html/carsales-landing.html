@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <!-- css landing -->
+        <link href="css/css-landing.css" rel="stylesheet" />
+        <!-- css afecto aos -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <!-- fuentes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+
+        <title>Autofact Landing Page</title>
+    </head>
+    <body>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid justify-content-end">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav text-center">
+        <li class="nav-item">
+          <a class="nav-link txt-secondary" aria-current="page" href="#formLanding">Comprar informe</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt-primary" href="#callLanding">Qué es Autofact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link txt-primary" href="#descriptionLanding">Detalle informe</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+        <div class="container-fluid g-0">
+            <section id="callLanding">
+              <div class="row py-5 g-0">
+                <div class="col-10 offset-1 col-md-6 offset-md-3 col-lg-4 offset-lg-4" data-aos="zoom-in">
+                  <img src="img/logo-autofact.svg" class="img-fluid" alt="logotipo autofact">
+                </div>
+              </div>
+                <div class="row pb-5 g-0">
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2">
+                        <h1><div class="txt-primary text-center">Autofact es una herramienta digital que entrega información y seguridad ante la compra de un auto usado.</div></h1>
+                    </div>
+                    <div class="col-10 offset-1 col-lg-8 offset-lg-2 pt-3 pb-5">
+                        <h3>
+                            <div class="txt-secondary text-center">
+                                Con el informe Autofact, podrás conocer el historial completo de cualquier patente en pocos minutos, reduciendo el riesgo de encontrar sorpresas desagradables después de haber realizado la transacción.
+                            </div>
+                        </h3>
+                    </div>
+                </div>
+            </section>
+            <section id="formLanding">
+                <div class="row mn-100 g-0">
+                    <div class="col-6 offset-3 col-md-4 offset-md-4 col-lg-2 offset-lg-5 text-center">
+                        <div class="price bg-secondary p-3">
+                            <h2><span class="txt-white">Valor informe</span></h2>
+                            <h1><span class="txt-white">$6.990</span></h1>
+                            <p class="mb-0"><span class="txt-white">(iva incluído)</span></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row my-5 text-center g-0">
+                    <h2><span class="txt-white">Ingrese los datos</span></h2>
+                </div>
+                <form class="row g-0" data-aos="zoom-in">
+                    <div class="col-10 offset-1 col-lg-6 offset-lg-3 mb-3">
+                        <input type="text" class="form-control" placeholder="Patente" />
+                        <label class="form-label txt-white mt-2" for="inlineFormInputGroupUsername">Ingrese el número de patente</label>
+                    </div>
+                    <div class="col-10 offset-1 col-lg-6 offset-lg-3 mb-3 mb-3 mb-3">
+                        <input type="text" class="form-control" placeholder="Nombre" />
+                        <label class="form-label txt-white mt-2" for="inlineFormInputGroupUsername">Ingrese el nombre</label>
+                    </div>
+                    <div class="col-10 offset-1 col-lg-6 offset-lg-3 mb-3 mb-3">
+                        <input type="text" class="form-control" placeholder="Apellido" />
+                        <label class="form-label txt-white mt-2" for="inlineFormInputGroupUsername">Ingrese el apellido</label>
+                    </div>
+                    <div class="col-10 offset-1 col-lg-6 offset-lg-3 mb-3">
+                        <input type="text" class="form-control" placeholder="xxxxxxxx-x" />
+                        <label class="form-label txt-white mt-2" for="inlineFormInputGroupUsername">Ingrese el RUT</label>
+                    </div>
+                    <div class="col-10 offset-1 col-lg-6 offset-lg-3">
+                        <input type="text" class="form-control" placeholder="mi@mail.com" />
+                        <label class="form-label txt-white mt-2" for="inlineFormInputGroupUsername">Ingrese el mail al que llegará el informe</label>
+                    </div>
+                </form>
+                <div class="row g-0">
+                    <div class="text-center my-5">
+                        <img src="img/captcha.svg" class="captcha" alt="imagen captcha" />
+                    </div>
+                    <div class="col-12 text-center mb-5">
+                        <a href="carsales-payment.html" class="btn btn-secondary">Comprar informe</a>
+                    </div>
+                </div>
+            </section>
+            <section id="descriptionLanding">
+                <div class="row my-5 text-center g-0">
+                    <div class="col-12">
+                        <h2><span class="txt-secondary">Qué obtendrás con Autofact</span></h2>
+                    </div>
+                </div>
+                <div class="row my-5 g-0" data-aos="zoom-in">
+                    <div class="col-10 offset-1 col-sm-8 offset-sm-2 col-lg-4 offset-lg-4">
+                        <ul class="ulText txt-primary">
+                            <li>Datos de inscripción del vehículo</li>
+                            <li>Encargo por robo</li>
+                            <li>Propietario actual e historial de propietarios</li>
+                            <li>Prendas, embargos y otras limitaciones al dominio</li>
+                            <li>Registros de kilometrajes</li>
+                            <li>Estado e historial de revisiones técnicas</li>
+                            <li>Historial de remates por pérdida total</li>
+                            <li>Pertenencia a flotas de transporte</li>
+                            <li>Multas anotadas en certificado de multas</li>
+                            <li>Historial de infracciones TAG y multas en municipalidades</li>
+                            <li>Infracciones del sistema de cámaras de vías exclusivas</li>
+                            <li>Registros de pagos del permiso de circulación</li>
+                            <li>Recalls o llamados a revisión por fallas técnicas</li>
+                            <li>Consumo y emisiones del vehículo</li>
+                        </ul>
+                    </div>
+                     <div class="col-12 text-center my-5">
+                        <a href="#formLanding" class="btn btn-primary">Ir a comprar informe</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+          const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
+        </script>
+        <!-- js aos animate -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+  AOS.init();
+</script>
+    </body>
+</html>
